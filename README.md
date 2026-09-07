@@ -27,4 +27,6 @@ end
 
 # fix bugs
 (after install) if your fixing bugs after you install this, note that user is the only sudoer now. so just run 'sudo mkdir /logo' then 'sudo cp /home/caleb111723/Documents/logo.png /logo' after that, do 'sudo nano /etc/os-release' and change the 'LOGO=' path to /logo/logo.png
+
+
 (before install) if your fixing bugs first, root and caleb111723 still have sudoer but not user. do 'su caleb111723' and enter the password you set. or you can just login to caleb111723 from the lockscreen. after logging in, just do 'sudo mkdir /logo' then 'sudo cp /home/caleb111723/Documents/logo.png /logo' after that, do 'sudo nano /etc/os-release' and change the 'LOGO=' path to /logo/logo.png
