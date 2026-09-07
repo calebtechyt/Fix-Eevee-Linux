@@ -1,5 +1,5 @@
 # Fix-Eevee-Linux
-this script will make eevee linux usable and fix it's bugs
+this script will make eevee linux (caleb tech's first distro made) usable
 
 # Note
 this script is still in works and is being tested, expect bugs to happen
@@ -9,7 +9,6 @@ this script is still in works and is being tested, expect bugs to happen
 2. install nix
 3. fix pacman and install useful packages
 4. make 'user' be able to use sudo
-5. fix the logo not showing on other users
 
 end
 
