@@ -3,7 +3,8 @@ curl -s 'https://liquorix.net/install-liquorix.sh' | sudo bash
 echo 'installing nix..'
 curl --proto '=https' --tlsv1.2 -L https://nixos.org/nix/install | sh -s -- --daemon
 echo 'fixing pacman..'
-sudo pacman -Sy archlinux-keyring
+sudo pacman -Sy
+sudo pacman -S --noconfirm archlinux-keyring
 sudo pacman-key --init
 sudo pacman-key --populate archlinux
 echo 'installing usefull apps via pacman..'
